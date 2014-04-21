@@ -1,5 +1,3 @@
-require 'active_record'
-
 class CreateWidgets < ActiveRecord::Migration
 
   def change

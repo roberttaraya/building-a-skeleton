@@ -1,5 +1,5 @@
 require 'rake'
-require_relative 'database'
+require_relative 'environment'
 
 namespace :db do
   desc "create the database"
