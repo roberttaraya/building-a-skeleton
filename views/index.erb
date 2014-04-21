@@ -1,2 +1,9 @@
 <h1>The greatest website ever</h1>
 <div class="output"><%= @message %></div>
+
+<section class='widget-container'>
+<% @widgets.each do |widget| %>
+  <p><%= widget.title %></p>
+<% end %>
+
+</section>
