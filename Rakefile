@@ -1,8 +1,5 @@
 require 'rake'
-require 'active_record'
-
-#established a database connection
-ActiveRecord::Base.establish_connection(:adapter => 'postgresql', :database => "skeleton_development")
+require_relative 'database'
 
 namespace :db do
   desc "create the database"
