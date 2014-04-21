@@ -1,9 +1,7 @@
 require 'sinatra'
 require 'shotgun'
 require_relative 'database'
-
-class Widget < ActiveRecord::Base
-end
+require_relative 'models/widget.rb'
 
 get '/' do
   Widget.create(title: 'raorao')
